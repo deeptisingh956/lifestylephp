@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<?php
+include 'include/common.php';
+?>
+<html>
+    <head>
+        <title>LifeStyle Store</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <link rel="stylesheet" href="index.css" type="text/css">
+    <!--jQuery library--> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--Latest compiled and minified JavaScript--> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <?php
+        require 'include/header.php'
+        ?>
+        </br></br></br>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 ocol-sm-offset-2">
+                    <div class="panel panel-primary">
+                        <div class="panel-body">
+                            <h2>SIGN UP</h2>
+                            <form method="post" action="signup_script.php">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="name" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="email" placeholder="E-mail">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" name="password" placeholder="password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" name="contact" placeholder="contact">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="city" placeholder="city">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="address" placeholder="Address">
+                                </div>
+                            </form>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <?php
+        include 'include/footer.php' ;
+        ?>
+    </body>
+</html>

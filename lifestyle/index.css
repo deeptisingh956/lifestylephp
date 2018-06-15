@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31 May, 2018, 7:34:21 AM
+    Author     : deepti
+*/
+#banner-image{
+    padding-top: 75px;
+    padding-bottom: 50px;
+    background: url("image/intro-bg_1.jpg") no-repeat center center;
+    background-size: cover;
+}
+#banner-content{
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin: auto;
+    margin-top: 12%;
+    color: #f8f8f8;
+    text-align: center;
+    margin-bottom: 12%; 
+    background: rgba(0,0,0,0.7);
+    max-width: 660px;
+}
+footer{
+    padding: 10px 0;
+    background-color: #101010;
+    color: #9d9d9d;
+    bottom: 0;
+    width: 100%;
+}
+.f-bottom{
+    position: fixed;
+}
